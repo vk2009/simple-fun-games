@@ -1,0 +1,158 @@
+body {
+  text-align: center;
+  background-color: darkgray;
+  font-family: "Oswald", Sans-Serif;
+}
+
+#cool {
+  width:200px;
+  border:3px solid green;
+  border-radius:5px;
+  display: block;
+}
+
+#big {
+  font-size:25px;
+}
+
+#biggie {
+  margin-top:30px;
+  font-size:25px;
+  color:red;
+  border:2px solid green;
+  border-radius:8px;
+  width:200px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#whee {
+  color:green;
+  font-size:20px;
+}
+#speaker-move {
+  position: absolute;
+  top:130px;
+  left:35px;
+}
+
+#speaker-move2 {
+  position: absolute;
+  top:130px;
+  left:290px;
+}
+
+.stop {
+  display:block;
+  margin:auto;
+  width:240px;
+  height:0px;
+  border:2px solid black;
+}
+
+iframe {
+  border-radius:8px;
+  color:white;
+  margin-bottom:0px;
+}
+
+#divThing {
+  margin-top:0px;
+  border-radius: 8px;
+  border:10px double black;
+  width:370px;
+  padding:10px;
+  margin: auto;
+  background-color: yellow;
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
+  height:550px;
+}
+
+label {
+  color:#000000;
+}
+
+#divThing:hover {
+  background-color:sandybrown;
+}
+
+button {
+  background-color:turquoise;
+  border:3px solid blue;
+  padding:5px;
+  border-radius:7px;
+  font-family: "Oswald", sans-serif;
+}
+
+button:hover {
+  background-color:blue;
+  border:3px solid turquoise;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+span {
+  margin-left:10px;
+  color:blue;
+  margin-top:10px;
+  text-transform: uppercase;
+}
+
+legend {
+  color:turquoise;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #ed7a28;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  border-bottom:2px solid aqua;
+}
+
+fieldset {
+  background-color:#c4d162;
+}
+
+#madlibs {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: left;
+  background-color: white;
+}
+
+#generate, #generate2, #nameUpdate {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5%;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  background-color:orange;
+}
+
+#resetStyle {
+  background-color:blanchedalmond;
+  border:3px dotted thistle;
+  font-family: "Oswald", sans-serif;
+  border-radius:8px;
+}
+
+
+#output {
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "ZCOOL KuaiLe", cursive;
+  text-align: center;
+}

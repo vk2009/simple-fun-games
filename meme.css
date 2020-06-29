@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  background-color: orange;
+}
+
+h1 {
+  color: greenyellow;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  border-bottom:2px solid aqua;
+  font-family: "Oswald", sans-serif;
+}
+
+#first-input-button, #second-input-button, #img-button {
+  margin-left:4px;
+}
+
+button {
+  background-color:turquoise;
+  border:3px solid blue;
+  padding:5px;
+  border-radius:7px;
+  font-family: "Oswald", sans-serif;
+}
+
+button:hover {
+  background-color:blue;
+  border:3px solid turquoise;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+table {
+  width: 100%;
+}
+
+.text-box {
+  width: 280px;
+  height: 80px;
+  color: white;
+  font-family: "Oswald", Sans-Serif;
+  font-size: 30px;
+  position: relative;
+  border: 1px solid white;
+  margin-left: 10px;
+  text-transform: uppercase;
+  text-shadow:3px 3px 2px orange;
+}
+
+.button-row {
+  padding: 10px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 4px;
+  max-width: 380px;
+  margin: auto;
+  font-family:'Oswald', Sans-Serif;
+  
+}
+
+#image-area {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  margin: auto;
+  background-size: cover;
+  background-color: black;
+  background-image:url('https://www.researchgate.net/profile/Irina_Gladkova/publication/253864235/figure/fig2/AS:668627082694665@1536424527328/The-image-shown-here-is-300-300-pixel-cropped-section-of-a-SEVIRI-Band-2-digital.png');
+}
+
+#second {
+  top: 136px;
+}

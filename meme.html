@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Meme Generator Deluxe</title>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&%26display=swap" rel="stylesheet">
+    <link href="meme.css" rel="stylesheet" type="text/css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  </head>
+  <body>
+    
+    <h1>Meme Generator Deluxe</h1>
+  
+    <div class="button-row">
+      1st Text Box: <input id="first-input"><button id='first-input-button'>Update</button>
+    </div>
+    <div class="button-row">
+      2nd Text Box: <input id="second-input"><button id='second-input-button'>Update</button>
+    </div>  
+    <div class="button-row">
+      <button id='width-height'>Update Width & Height</button>
+    </div>
+          
+    <table>
+      <tr>
+        <td>
+          <div class="button-row">
+            <button id="rotate-left">Rotate Left</button>
+          </div>
+        </td>
+        <td>
+          <div id="image-area">
+            <div id="first" class="text-box"></div>
+            <div id="second" class="text-box"></div>
+          </div>
+        </td>
+        <td>
+          <div class="button-row">
+            <button id="rotate-right">Rotate Right</button>
+          </div>
+        </td>
+      </tr>
+    </table>
+    
+
+    <div class="button-row">
+      Image URL: <input id="img-url" type="text"><button id="img-button">Update</button>
+    </div>
+    <div class="button-row">
+      <button id="borders-button">Disable Borders</button>
+    </div>
+
+    <br>
+
+    <button><a href="index.html">Home</a></button>
+
+    <br>
+    <br>
+    
+      <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="meme.js"></script>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Madlibs Generator Redux</title>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&%26display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+  </head>
+  <body>
+    
+    <h1>Mad Libs Redux</h1>
+  
+    <form id='madlibs'>
+      <span id="needNameInput">Madlib Form</span>
+      <fieldset>
+        <legend>Instructions</legend>
+        <label>Welcome to my Mad Libs generator! Select from the values below and then click the "Generate Madlib 1" button or "Generate Madlib 2" button to see a silly story.</label>
+        <label>Change Background Color:</label>
+        <input type="color" id="change-color" value="#a9a9a9">
+        <br>
+        <label>Change Title Color:</label>
+        <input type="color" id="change-color2" value="#ed7a28">
+        <br>
+        <label>Change Fieldset Background Color:</label>
+        <input type="color" id="change-color3" value="#c4d162">
+        <br>
+        <label>Change Text Color:</label>
+        <input type="color" id="change-color4" value="#000000">
+        <br>
+        <input type="button" id="resetStyle" value="Reset Style">
+        <br>
+        <label>First Name: </label>
+        <input type="password" id="nameChange">
+        <br>
+        <label>Last Name: </label>
+        <input type="password" id="nameChange2">
+        <br>
+        <input type="submit" id="nameUpdate" value="Change Title Name">
+      </fieldset>
+      <fieldset>
+        <legend>Nouns</legend>
+        <label>Noun: </label>
+        <input id="noun1" type="text">
+        <br>
+        <input name="noun2" type="radio" value="park" checked>
+        <label>Park</label>
+        <br>
+        <input name="noun2" type="radio" value="library">
+        <label>Library</label>
+        <br>
+        <input name="noun2" type="radio" value="dining hall">
+        <label>Dining Hall</label>
+        <br>
+        <label>1. Door<br>
+        2. Man<br>
+        3. Cat<br></label>
+        <label>Choose: </label>
+        <input id="noun3" type="number">
+      </fieldset>
+      <fieldset>
+        <legend>Verbs</legend>
+        <label>Verb: </label>
+        <input id="verb1" type="text">
+        <br>
+        <input name="verb2" type="radio" value="run" checked>
+        <label>Run</label>
+        <br>
+        <input name="verb2" type="radio" value="sit">
+        <label>Sit</label>
+        <br>
+        <input name="verb2" type="radio" value="dance">
+        <label>Dance</label>
+        <br>
+        <label>1. Jog<br>
+        2. Stand<br>
+        3. Ride<br></label>
+        <label>Choose: </label>
+        <input id="verb3" type="number">
+      </fieldset>
+      <fieldset>
+        <legend>Adjectives</legend>
+        <label>Adjective: </label>
+        <input id="adj1" type="text">
+        <br>
+        <input name="adj2" type="radio" value="red" >
+        <label>Red</label>
+        <br>
+        <input name="adj2" type="radio" value="tall">
+        <label>Tall</label>
+        <br>
+        <input name="adj2" type="radio" value="smart" checked>
+        <label>Smart</label>
+        <br>
+        <label>1. Picky<br>
+        2. Ugly<br>
+        3. Classic<br></label>
+        <label>Choose: </label>
+        <input id="adj3" type="number">
+      </fieldset>
+      <fieldset>
+        <legend>Adverbs</legend>
+        <label>Adverb: </label>
+        <input id="adverb1" type="text">
+        <br>
+        <input name="adverb2" type="radio" value="slowly" >
+        <label>Slowly</label>
+        <br>
+        <input name="adverb2" type="radio" value="quickly">
+        <label>Quickly</label>
+        <br>
+        <input name="adverb2" type="radio" value="jerkily" checked>
+        <label>Jerkily</label>
+        <br>
+        <label>1. Lavishly<br>
+        2. Elaborately<br>
+        3. Judjmentally<br></label>
+        <label>Choose: </label>
+        <input id="adverb3" type="number">
+      <br>
+      <input type="submit" id="generate" value="Generate Mad Lib 1">
+      <input type="submit" id="generate2" value="Generate Mad Lib 2">
+      </fieldset>
+    </form>
+
+    <textarea id="output" rows="20" cols="60">Mad Lib Will Go Here</textarea>
+
+    <br>
+
+    <button><a href="index.html">Home</a></button>
+
+    <br>
+    <br>
+    
+      <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
